@@ -44,13 +44,13 @@ Figure 02  Encoder 8 * 3
 
 Developed by: SESHAN J  RegisterNumber: 24003142
 */
-module exp5(din,a,b,c);
-input [0:7] din;
-output a,b,c;
-assign a=(din[4]| din[5]| din[6]| din[7]);
-assign b=(din[2]| din[3]| din[6]| din[7]);
-assign c-(din[1]| din[3]| din[5]| din[7]);
-endmodule
+module exp5(din,a,b,c);    
+input [0:7] din;     
+output a,b,c;    
+assign a=(din[4]| din[5]| din[6]| din[7]);    
+assign b=(din[2]| din[3]| din[6]| din[7]);       
+assign c-(din[1]| din[3]| din[5]| din[7]);      
+endmodule       
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 ![image](https://github.com/user-attachments/assets/6b9f5fdc-2e9c-4ca7-97f4-6423f0471d1f)
 
